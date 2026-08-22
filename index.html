@@ -47,7 +47,7 @@
   const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh6eW1idm5sanVkeXlwZHl1aXNmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY1MjExMDYsImV4cCI6MjA5MjA5NzEwNn0.LRCkSCRF-0rDVAFkSvImWUNas21yXHZ29pQYUUZi8RY';
   const supabaseClient = window.supabase.createClient(supabaseUrl, supabaseKey);
 
-  const GUIDE_ID = 'teide_en';
+  const GUIDE_ID = 'teide_de';
 
   window.addEventListener('DOMContentLoaded', async () => {
     const params = new URLSearchParams(window.location.search);
@@ -58,7 +58,7 @@
     }
 
     if (!license) {
-      mostrarError("🔒 Access Restricted", "You need a valid license code to access this audioguide.", true);
+      mostrarError("🔒 Zugriff verweigert", "Sie benötigen einen gültigen Lizenzcode, um auf diesen Audioguide zuzugreifen.", true);
       return;
     }
 
@@ -71,7 +71,7 @@
 
     if (error || !data) {
       localStorage.removeItem(`tw_license_${GUIDE_ID}`);
-      mostrarError("❌ Invalid License", "The provided license code is invalid or does not belong to this audioguide.", true);
+      mostrarError("❌ Ungültige Lizenz", "Der angegebene Lizenzcode ist ungültig oder gehört nicht zu diesem Audioguide.", true);
       return;
     }
 
@@ -108,12 +108,12 @@
        target="_blank">
        Google Maps Route verfügbar
     </a>
-    <span>(data connection required)</span>
+    <span>(Datenverbindung erforderlich)</span>
   </p>
 
   <p style="padding: 5px 15px; margin: 5px 0;"> 📄
-    <a href="EN-TEIDE.html" target="_blank">
-       Opening hours and practical tips
+    <a href="DE-TEIDE.html" target="_blank">
+       Öffnungszeiten und praktische Tipps
     </a>
   </p>
 
