@@ -1,0 +1,118 @@
+{
+  "type": "FeatureCollection",
+  "name": "El Teide Stops",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "1. Aussichtspunkt La Ruleta (Start)",
+        "audio": "https://xzymbvnljudyypdyuisf.supabase.co/storage/v1/object/public/teide_de/1.mp3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.631272,
+          28.2230957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "2. Roque Cinchado",
+        "audio": "https://xzymbvnljudyypdyuisf.supabase.co/storage/v1/object/public/teide_de/2.mp3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.631667,
+          28.224722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "3. Felsformationen El Torrotito & El Burro",
+        "audio": "https://xzymbvnljudyypdyuisf.supabase.co/storage/v1/object/public/teide_de/3.mp3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.631498,
+          28.2252322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "4. Abstieg in Richtung Llano de Ucanca",
+        "audio": "https://xzymbvnljudyypdyuisf.supabase.co/storage/v1/object/public/teide_de/4.mp3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.63875,
+          28.2317777777778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "5. Llano de Ucanca (Vulkanebene)",
+        "audio": "https://xzymbvnljudyypdyuisf.supabase.co/storage/v1/object/public/teide_de/5.mp3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.6358888888889,
+          28.2249166666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "6. La Catedral (Roques de García Formation)",
+        "audio": "https://xzymbvnljudyypdyuisf.supabase.co/storage/v1/object/public/teide_de/6.mp3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.634853,
+          28.224346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "7. Aufstieg zurück zur La Ruleta (Wolkenmeer-Aussichtspunkte)",
+        "audio": "https://xzymbvnljudyypdyuisf.supabase.co/storage/v1/object/public/teide_de/7.mp3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.632263,
+          28.22293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "8. Aussichtspunkt La Ruleta (Ende)",
+        "audio": "https://xzymbvnljudyypdyuisf.supabase.co/storage/v1/object/public/teide_de/8.mp3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.631272,
+          28.2230957
+        ]
+      }
+    }
+  ]
+}
